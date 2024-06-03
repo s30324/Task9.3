@@ -1,0 +1,17 @@
+public class BlackMamba extends Snake implements Poisonous, Moveable{
+public BlackMamba(double length, String name, double mass) {
+super(length, name, mass);
+}
+@Override
+public void bite() {
+System.out.println("Mamba bites!");
+}
+@Override
+public void start() {
+System.out.println("Mamba starts!");
+}
+@Override
+public void stop() {
+System.out.println("Mamba stops!");
+}
+}
