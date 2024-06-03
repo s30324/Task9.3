@@ -1,0 +1,13 @@
+abstract class Snake {
+public Snake(double length, String name, double mass) {
+this.length = length;
+this.name = name;
+this.mass = mass;
+}
+double length;
+String name;
+double mass;
+public String getName() {
+return name;
+}
+}
